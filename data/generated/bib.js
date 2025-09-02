@@ -455,6 +455,18 @@
         "type": "inproceedings",
         "year": "2012"
     },
+     "li2017aircode": {
+        "abstract": "We present AirCode, a technique that allows the user to tag physically fabricated objects with given information. An AirCode tag consists of a group of carefully designed air pockets placed beneath the object surface. These air pockets are easily produced during the fabrication process of the object, without any additional material or postprocessing. Meanwhile, the air pockets affect only the scattering light transport under the surface, and thus are hard to notice to our naked eyes. But, by using a computational imaging method, the tags become detectable. We present a tool that automates the design of air pockets for the user to encode information. AirCode system also allows the user to retrieve the information from captured images via a robust decoding algorithm. We demonstrate our tagging technique with applications for metadata embedding, robotic grasping, as well as conveying object affordances.",
+        "title":"Aircode: Unobtrusive physical tags for digital fabrication",
+        "author":"Li, Dingzeyu and Nair, Avinash S and Nayar, Shree K and Zheng, Changxi",
+        "booktitle":"Proceedings of the 30th annual ACM symposium on user interface software and technology",
+        "pages":"449--460",
+        "year":"2017",
+        "keywords": "Robustness : Difficult angle ,Robustness :  Noise ",
+        "organization": "ACM",
+        "type": "inproceedings",
+       
+    },
     "liang2024chic": {
         "abstract": "This paper proposes Chic-Marker, a fashionable approach to integrating square fiducial markers into apparel and accessories. While square fiducial markers have found widespread use in industrial and entertainment sectors for precise object identification and tracking, their integration into daily wearable items has been limited due to their conspicuous appearance. Previous efforts to conceal these markers using infrared-based methods have encountered obstacles, often requiring specialized equipment and lighting conditions. In this study, we propose a fresh perspective by embedding the markers within the timeless Pied-de-poule pattern, enhancing their visibility for tracking purposes and their fashion appeal. We use computational tools to design and manufacture functional garments using sublimation printing and traditional handcrafting techniques. Through rigorous technical evaluation and exploratory making, we analyze the characteristics of these markers and explore their material potential, offering valuable insights and guidelines for their seamless integration into future wearable applications.",
         "address": "New York, NY, USA",
@@ -901,6 +913,19 @@
         "type": "ARTICLE",
         "volume": "",
         "year": "2024"
+    },
+      "willis2013infrastructs": {
+        "abstract":"We introduce InfraStructs, material-based tags that embed information inside digitally fabricated objects for imaging in the Terahertz region. Terahertz imaging can safely penetrate many common materials, opening up new possibilities for encoding hidden information as part of the fabrication process. We outline the design, fabrication, imaging, and data processing steps to fabricate information inside physical objects. Prototype tag designs are presented for location encoding, pose estimation, object identification, data storage, and authentication. We provide detailed analysis of the constraints and performance considerations for designing InfraStruct tags. Future application scenarios range from production line inventory, to customized game accessories, to mobile robotics.",
+        "author": "Willis, Karl DD and Wilson, Andrew D",
+        "journal": "ACM Transactions on Graphics (TOG)",
+        "keywords": "Robustness : Noise",
+        "number": "4",
+        "pages": "1--10",
+        "publisher": "ACM",
+        "title": "InfraStructs: fabricating information inside physical objects for imaging in the terahertz region",
+        "type": "article",
+        "volume": "32",
+        "year": "2013"
     },
     "wu2021closed": {
         "abstract": "The use of continuum manipulators in surgical applications can be beneficial because of their inherent safety from their structural compliance. However, the tip pose (position and orientation) accuracy of a continuum manipulator can be low when an external load or disturbance is applied. Closed-loop pose control is preferred to improve the pose accuracy. Considering the requirements stemmed from sterilization and medical device electromagnetic compatibility, the approach of fully utilizing the vision feedback from a stereo endoscopic camera for such a closedloop pose controller is adopted. Wrist markers are attached to the end-effectors of the surgical continuum manipulators for pose information detection. And these wrist markers are designed in a well-considered way to generate enough variants. The closed-loop pose controller is then designed based on a stereo vision tracking algorithm that detects the position and orientation of the wrist marker. A switching feature is also incorporated into the controller to handle the situation when the closed-loop control is disrupted due to the visual occlusion or the operation transition in dual-arm manipulation. Experimental verification showed that the average errors of the pose feedback are 0.65 mm for the position and 1.05\u00b0 for the orientation. The experiments of trajectory following under a 120-gram external load and automated dual-arm suturing were also conducted to verify the effectiveness of the proposed controller.",
